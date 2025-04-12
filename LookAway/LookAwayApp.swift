@@ -5,8 +5,6 @@
 //  Created by Bora Mert on 4.04.2025.
 //
 
-// TODO: Fix app icon. Try to push to app store.
-
 import SwiftUI
 import Foundation
 import ObjectiveC.runtime

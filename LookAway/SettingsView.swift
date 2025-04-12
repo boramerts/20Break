@@ -20,7 +20,7 @@ struct SettingsView: View {
                 .font(.largeTitle)
                 .bold()
                 .padding(.bottom, 10)
-            Text("Welcome to LookAway, your simple utility to reduce eye strain. This app follows the 20-20-20 rule (every 20 minutes, take a 20-second break and look at something 20 feet (6 meters) away). Adjust your session and break durations below to suit your needs.")
+            Text("Welcome to 20Break, your simple utility to reduce eye strain. This app follows the 20-20-20 rule (every 20 minutes, take a 20-second break and look at something 20 feet (6 meters) away). Adjust your session and break durations below to suit your needs.")
                 .font(.callout)
                 .lineLimit(5)
                 .frame(height: 75)
@@ -64,7 +64,7 @@ struct SettingsView: View {
             .padding(.bottom, 20)
             
             HStack {
-                Text("LookAway | By Bora Mert 2025")
+                Text("20Break | By Bora Mert 2025")
                     .font(.subheadline)
                     .foregroundStyle(.secondary)
                 Spacer()
