@@ -51,7 +51,7 @@
 ## Installation
 
 1. **Download:**  
-   Obtain the latest `.dmg` release from the [Releases](https://github.com/YourUsername/20Break/releases) page.
+   Obtain the latest `.dmg` release from the [Releases](https://github.com/boramerts/20Break/releases) page.
 
 2. **Install:**  
    Open the downloaded `.dmg` file and drag the **20Break** app into your **Applications** folder. Launch the app from there.
@@ -85,9 +85,3 @@
 ## Contributing
 
 Contributions, bug reports, and suggestions for improvements are welcome. Please open an issue or submit a pull request.
-
----
-
-## License
-
-20Break is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
