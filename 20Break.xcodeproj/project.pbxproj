@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		908CFDD22DA0760D0069F4C4 /* LookAway.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LookAway.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		908CFDD22DA0760D0069F4C4 /* 20Break.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 20Break.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		90BB75082DA932360063556D /* Exceptions for "LookAway" folder in "LookAway" target */ = {
+		90BB75082DA932360063556D /* Exceptions for "20Break" folder in "LookAway" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
@@ -21,12 +21,12 @@
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		908CFDD42DA0760D0069F4C4 /* LookAway */ = {
+		908CFDD42DA0760D0069F4C4 /* 20Break */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				90BB75082DA932360063556D /* Exceptions for "LookAway" folder in "LookAway" target */,
+				90BB75082DA932360063556D /* Exceptions for "20Break" folder in "LookAway" target */,
 			);
-			path = LookAway;
+			path = 20Break;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -45,7 +45,7 @@
 		908CFDC92DA0760D0069F4C4 = {
 			isa = PBXGroup;
 			children = (
-				908CFDD42DA0760D0069F4C4 /* LookAway */,
+				908CFDD42DA0760D0069F4C4 /* 20Break */,
 				908CFDD32DA0760D0069F4C4 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -53,7 +53,7 @@
 		908CFDD32DA0760D0069F4C4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				908CFDD22DA0760D0069F4C4 /* LookAway.app */,
+				908CFDD22DA0760D0069F4C4 /* 20Break.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -74,13 +74,13 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				908CFDD42DA0760D0069F4C4 /* LookAway */,
+				908CFDD42DA0760D0069F4C4 /* 20Break */,
 			);
 			name = LookAway;
 			packageProductDependencies = (
 			);
 			productName = LookAway;
-			productReference = 908CFDD22DA0760D0069F4C4 /* LookAway.app */;
+			productReference = 908CFDD22DA0760D0069F4C4 /* 20Break.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -264,7 +264,6 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
-				CODE_SIGN_ENTITLEMENTS = LookAway/LookAway.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
@@ -272,7 +271,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = LookAway/Info.plist;
+				INFOPLIST_FILE = 20Break/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = 20Break;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
 				INFOPLIST_KEY_LSUIElement = YES;
@@ -284,7 +283,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 14.6;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.boramerts.20Break;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = 20Break;
 				REGISTER_APP_GROUPS = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -297,7 +296,6 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
-				CODE_SIGN_ENTITLEMENTS = LookAway/LookAway.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
@@ -305,7 +303,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = LookAway/Info.plist;
+				INFOPLIST_FILE = 20Break/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = 20Break;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
 				INFOPLIST_KEY_LSUIElement = YES;
@@ -317,7 +315,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 14.6;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.boramerts.20Break;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = 20Break;
 				REGISTER_APP_GROUPS = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;

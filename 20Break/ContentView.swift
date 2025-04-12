@@ -116,9 +116,7 @@ struct ContentView: View {
     }
     
     func quitSession() {
-        timer?.invalidate()
-        timer = nil
-        sessionManager.isSessionStarted = false
+        exit(0)
     }
     
     func startWorkTimer() {
